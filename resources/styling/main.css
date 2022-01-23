@@ -1,0 +1,22 @@
+
+body {
+    margin:0;
+    padding:0;
+    color:#444A54;
+    background-color:#1F2430;
+    font-family: Consolas, monaco, monospace;
+    align-items: center;
+}
+a {
+    color:#805D23;
+}
+#content {
+    margin-right:10%;
+    margin-left:10%;
+    padding:30px;
+    border-color:#444A54;
+    border-style:solid;
+    border-width: 1px;
+    border-top:none;
+    border-bottom:none;
+}
