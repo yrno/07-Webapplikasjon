@@ -6,7 +6,6 @@ body {
     font-family: Consolas, monaco, monospace;
     align-items: center;
     width:100%;
-
 }
 a:hover {
     color:#FFFFFF;
@@ -17,7 +16,9 @@ a {
 #content {
     margin-right:10%;
     margin-left:10%;
+    margin-bottom:20px;
     padding:30px;
+    background-color:#1F2430;
     border-style:solid;
     border-width:1px;
     border-top:none;
@@ -26,10 +27,15 @@ a {
     padding:2%;
     text-align:center;
     border-style:solid;
-    border-top:1px,#444A54;
     background-color: #1F2430;
+    border-top:1px,#444A54;
     border-bottom:none;
     border-left:none;
     border-right:none;
-    width:auto;
 }
+
+/*
+#1F2430 - Content Background Dark Blue
+#805D23 - Link Color
+#444A54 - Border Color
+#D5FF80 - Green (maybe use?)
