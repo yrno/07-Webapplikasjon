@@ -6,6 +6,11 @@ body {
     background-color:#1F2430;
     font-family: Consolas, monaco, monospace;
     align-items: center;
+    width:100%;
+    border-color:#444A54;
+}
+a:hover {
+    color:#FFFFFF;
 }
 a {
     color:#805D23;
@@ -14,9 +19,16 @@ a {
     margin-right:10%;
     margin-left:10%;
     padding:30px;
-    border-color:#444A54;
     border-style:solid;
     border-width: 1px;
     border-top:none;
     border-bottom:none;
+}
+#footer {
+    padding:5%;
+    text-align:center;
+    border-style:solid;
+    border-top:1px,#444A54;
+    border-bottom:none;
+    background-color: #1F2430;
 }
