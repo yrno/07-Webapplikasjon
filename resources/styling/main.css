@@ -6,7 +6,7 @@ body {
     font-family: Consolas, monaco, monospace;
     align-items: center;
     width:100%;
-    border-color:#444A54;
+
 }
 a:hover {
     color:#FFFFFF;
@@ -14,36 +14,22 @@ a:hover {
 a {
     color:#805D23;
 }
-#navbar {
-    background-color:#4e447a;
-    text-align:center;
-    border-style:solid;
-    border-bottom:1px, #444A54;
-    border-left:none;
-    border-right:none;
-    border-top:none;
-}
-#active {
-    background-color:#1F2430;
-    padding:20px;
-    border-left:2px, #444A54;
-    border-right:2px, #444A54;
-}
 #content {
     margin-right:10%;
     margin-left:10%;
     padding:30px;
     border-style:solid;
-    border-width: 1px;
+    border-width:1px;
     border-top:none;
 }
 #footer {
-    padding:5%;
+    padding:2%;
     text-align:center;
     border-style:solid;
     border-top:1px,#444A54;
+    background-color: #1F2430;
     border-bottom:none;
     border-left:none;
     border-right:none;
-    background-color: #1F2430;
+    width:auto;
 }
