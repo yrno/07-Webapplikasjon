@@ -7,6 +7,11 @@ body {
     align-items: center;
     width:100%;
 }
+button {
+    background-color:#1F2430;
+    border-color:#444A54;
+    color:#D5FF80;
+}
 a:hover {
     color:#FFFFFF;
 }
@@ -22,6 +27,11 @@ a {
     border-style:solid;
     border-width:1px;
     border-top:none;
+}
+#cardsTable, #cardsTable td, #cardsTable th {
+    border:1px #444A54;
+    border-style:solid;
+    padding:5px;
 }
 #footer {
     padding:2%;

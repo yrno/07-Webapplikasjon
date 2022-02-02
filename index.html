@@ -11,10 +11,27 @@
     <div id="content">
         <h1>Hente ut data frå API</h1>
         <a href="https://warframe.fandom.com/wiki/Mastery_Rank">This is a link</a>
+        <h2>Random Cat Fact</h2>
         <p id="fact">Random Cat Fact time!</p>
+        <h2>Deck of Cards</h2>
+        <button onclick="drawCard();">Draw card</button><br><br>
+        <div id="card_much"><img src="resources/images/EmptyCard.png"><br><p>oioi yes</p></div>
+        <table id="cardsTable">
+            <tr></tr><th>Cards Drawn</th><th>Ace</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>Knight</th><th>Queen</th><th>King</th></tr>
+            <tr><td>Clubs</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>Diamonds</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>Hearts</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td>Spades</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table><br>
+        <button onclick="shuffleDeck()">Shuffle deck and draw card</button>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
     </div>
     <div id="footer">
-        07 - Weboppgave <br> Henrik Solstrand Furdal
+        07 - Weboppgave <br>
+        Henrik Solstrand Furdal<br>
+        This site uses <a href="https://deckofcardsapi.com/">Deck of Cards API</a> and <a href="https://catfact.ninja/">Cat Facts API</a>
     </div>
     <script src="resources/scripts/api.js"></script>
 </body>
