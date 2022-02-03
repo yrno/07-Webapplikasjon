@@ -13,7 +13,7 @@ async function drawCard() {
     const data = await fetch("https://deckofcardsapi.com/api/deck/d2tygv6s4gq3/draw/?count=1");
     const json = await data.json();
     drawnCard = json.cards[0].code;
-    console.log(drawnCard)
+    console.log(drawnCard+" drawn")
     drawnCardImage = json.cards[0].image;
     cardsRemaining = json.remaining;
     if (drawnCard) {
